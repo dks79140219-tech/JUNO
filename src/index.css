@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-univ-navy: #002c5f;
+  --color-univ-navy-light: #00408f;
+  --color-univ-gold: #fcc419;
+  --color-univ-accent: #3b82f6;
+  --color-univ-bg: #f8fafc;
+  
+  --font-sans: "Pretendard", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif KR", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-univ-bg)] text-slate-900 antialiased;
+  }
+}
